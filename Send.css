@@ -1,0 +1,259 @@
+/* <!-- An easy way to send request to all supplies --> */
+
+/* start here */
+
+.request-send{
+    height: 350px;
+    border: 0.5px solid black;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    background-image: url(./Group\ 982.png);
+    background-repeat: no-repeat;
+    width: 1130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 767px){
+
+    .request-send{
+        height: 240px;
+        border: 0.5px solid black;
+        padding: 25px;
+        margin: 10px;
+        border-radius: 10px;
+        background-image: url(./Group\ 982.png);
+        background-repeat: no-repeat;
+        width: 655px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+}
+.request-box{
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 767px){
+
+    .request-box{
+        display: none;
+    }
+
+}
+.request-box input{
+    height: 30px;
+    margin-left: 20px;
+
+}
+
+@media only screen and (max-width: 750px){
+
+    .request-box input{
+        height: 15px;
+        margin-left: 10px;
+        display: flex;
+        width: 120px;
+    
+    }
+
+}
+.request-box h2{
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 750px){
+    .request-box h2{
+        margin-left: 10px;
+        font-size: 13px;
+    }
+
+}
+.request-box textarea{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+@media only screen and (max-width: 750px){
+    .request-box textarea{
+        margin-left: 10px;
+        margin-top: 2.5px;
+        width: 120px;
+        height: 40px;
+    }
+
+}
+.request-box button{
+    height: 25px;
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 0px;
+}
+@media only screen and (max-width: 750px){
+    .request-box button{
+        height: 17px;
+        width: 60px;
+        margin-top: 5px;
+        margin-left: 20px;
+        border-radius: 0px;
+        font-size: 9px;
+    }
+
+}
+.request-box select{
+    height: 25px;
+    width: 80px;
+    border-radius: 0px;
+}
+@media only screen and (max-width: 750px){
+    .request-box select{
+        height: 17px;
+        width: 60px;
+        border-radius: 0px;
+        font-size: 9px;
+    }
+
+}
+
+/* remmand item start here */
+
+.Recommand-send{
+    height: 300px;
+}
+
+@media only screen and (max-width: 750px){
+    .Recommand-send{
+        height: 150px;
+        display: block;
+    }
+}
+.Recommand{
+    margin-top: 10px;
+    margin: 5px;
+    display: flex;
+    padding-left: 2px;
+}
+
+.Recommand-box1{
+    height:200px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+}
+
+.Recommand-box2{
+    height:200px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+}
+
+.Recommand-box3{
+    height:200px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+}
+
+.Recommand-box4{
+    height:200px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+}
+
+.Recommand-box5{
+    height:200px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+}
+.Recommand-box6{
+    height:200px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+}
+
+/* country section start start here */
+
+
+.region{
+    border: 0.6px solid black;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 767px){
+    .region{
+        display: none;
+    }
+}
+
+/* <!-- subcribe our new slutter start here --> */
+
+.news-shutter{
+    height: 300px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    margin-top: 45px;
+}
+
+@media only screen and (max-width: 750px){
+
+    .news-shutter{
+        height: 150px;
+        border-radius: 5px;
+        border: 0.5px solid black;
+        margin-top: 22px;
+        display: block;
+    }
+
+}
+
+.news-shutter h1{
+    display: flex;
+    justify-content: center;
+}
+.news-shutter p{
+    display: flex;
+    justify-content: center;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+}
+.email input{
+    height: 30px;
+
+}
+.email button{
+    height: 36px;
+    width: 90px;
+    padding-left: 3px;
+    margin-left: 3px;
+}

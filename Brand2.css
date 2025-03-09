@@ -1,0 +1,604 @@
+/* Body Brand page 1 */
+/* tBody Start here */
+.Maintwo45{
+    /* height: 800px; */
+    width: 1400px;
+    /* border: 3px solid orange; */
+    margin: 20px;
+}
+@media only screen and (max-width: 767px){
+    .Maintwo45{
+        /* height: 800px; */
+        width: 700px;
+        /* border: 3px solid orange; */
+        margin: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 480px){
+    .Maintwo45{
+        width: 430px;
+        margin: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        border: 3px solid orange;
+
+}
+}
+@media only screen and (max-width: 480px){
+    hgroup{
+        display: none;
+    }
+
+}
+hgroup{
+    width: 200px;
+}
+@media only screen and (max-width: 767px){
+    hgroup{
+        width: 100px;
+    }
+    hgroup h3{
+        font-size: 12px;
+        font-weight: 200px;
+    }
+}
+
+.Trading{
+    height: 431px;
+    width: 600px;
+    margin-left: 5px;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    background-image: url(./Mask\ group.png);
+}
+
+@media only screen and (max-width: 767px){
+
+    .Trading{
+        height: 250px;
+        width: 540px;
+        margin-left: 2.5px;
+        padding-left: 15px;
+        padding-top: 10px;
+        font-size: 10px;
+        font-weight: 100;
+        
+    }
+
+}
+@media only screen and (max-width: 480px){
+    .Trading{
+        width: 430px;
+        height: 250px;
+        margin-left: 2.5px;
+        padding-left: 15px;
+        padding-top: 10px;
+        font-size: 10px;
+        font-weight: 100;
+        background-image: url(./Mask\ group.png);
+    }
+
+}
+
+.Trading button{
+    border: 5px;
+    height: 30px;
+    width: 90px;
+    background-color: brown;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+
+@media only screen and (max-width: 750px){
+
+    .Trading button{
+        border: 2.5px;
+        height: 14px;
+        width: 40px;
+        background-color: brown;
+        border-top-left-radius:2.5px;
+        border-bottom-left-radius:2.5px;
+    }
+}
+
+    @media only screen and (max-width: 480px){
+        .Trading button{
+            border: 2.5px;
+            height: 14px;
+            width: 40px;
+            background-color: brown;
+            border-top-left-radius:2.5px;
+            border-bottom-left-radius:2.5px;
+        }
+}
+.Login{
+    height: 139px;
+    width: 300px;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 767px){
+
+    .Login{
+        display: none;
+    }
+
+}
+.Login-us{
+    height: 139px;
+    width: 300px;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 767px){
+    .Login-us{
+        display: none;
+    }
+}
+
+.login-us logo Button{
+    padding-left: 10px;
+}
+@media only screen and (max-width: 767px){
+
+    .login-us logo Button{
+        display: none;
+    }
+
+}
+.logo{
+    background-color: blueviolet;
+    height: 139px;
+    width: 300px;
+    padding: auto;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 767px){
+    .logo{
+        display: none;
+    }
+}
+.logo Button{
+    background-color: rgb(99, 18, 250);
+    width: 285px;
+    border-radius: 5px;
+    border: 0.5px solid whitesmoke;
+    margin: 5px;
+    height: 25px;
+}
+
+@media only screen and (max-width: 767px){
+
+    .logo Button{
+        background-color: rgb(99, 18, 250);
+        width: 142px;
+        border-radius: 2.5px;
+        border: 0.5px solid whitesmoke;
+        margin: 2.5px;
+        height: 12.5px;
+    }
+
+}
+
+.logo p{
+    padding-left: 60px;
+}
+@media only screen and (max-width: 767px){
+    .logo p{
+        padding-left: 30px;
+    }
+
+}
+.Getus{
+    background-color: rgb(239, 235, 8);
+    height: 139px;
+    width: 300px;
+    padding: auto;
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+}
+
+@media only screen and (max-width: 767px){
+
+    .Getus{
+        background-color: rgb(239, 235, 8);
+        height: 70px;
+        width: 150px;
+        padding: auto;
+        margin: auto;
+        border-radius: 2.5px;
+        color: white;
+    }
+
+}
+.Getus h2{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.send{
+    background-color: blueviolet;
+    height: 139px;
+    width: 300px;
+    padding: auto;
+    margin: auto;
+    border-radius: 5px;
+}
+.send h1{
+    padding-left:15px;
+    padding-top: 15px;
+    color: white;
+}
+
+aside{
+    border-radius: 3px;
+    border:0.5px solid black;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content:center;
+    padding: 25px;
+    margin:15px;
+}
+
+@media only screen and (max-width: 767px){
+    aside{
+        border-radius: 1.5px;
+        border:0.5px solid black;
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content:center;
+        padding: 13px;
+        margin:7px;
+    }
+    h3{
+        font-size: 4px;
+    }
+
+}
+
+/* <!-- six Box Start Here --> */
+.Manin6box{
+    height: 330px;
+    border: 1px solid rgb(245, 13, 13);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+ @media only screen and (max-width: 767px){
+
+    .Manin6box{
+        height: 600px;
+        border: 1px solid rgb(245, 13, 13);
+        border-radius: 3px;
+        display: flex;
+        justify-content: space-around;
+        /* display: block; */
+        
+    } 
+
+}
+@media only screen and (max-width: 480px){
+    .Manin6box{
+        display: flex;
+        flex-wrap: wrap;
+        height:1100px;
+    }
+
+}
+
+.Mainbox1{
+    height: 290px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding: 10px;
+}
+
+@media only screen and (max-width: 767px){
+    .Mainbox1{
+        height: 140px;
+        width: 100px;
+    }
+    h3{
+        font-size: 4px;
+    }
+    h5{
+        font-size: 2px;
+    }
+    img{
+        height: 100px;
+        width: 100px;
+
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .Mainbox2{
+        height: 140px;
+        margin: 5px;
+        width: 100px;
+        }
+
+        .Mainbox3{
+            height: 140px;
+            margin: 5px;
+            width: 100px;
+            }
+
+            .Mainbox4{
+                height: 140px;
+                width: 100px;
+            }
+            .Mainbox5{
+                height: 140px;
+                margin: 5px;
+                width: 100px;
+                }
+        
+                .Mainbox6{
+                    height: 140px;
+                    margin: 5px;
+                    width: 100px;
+                    }
+
+                    
+                .Mainbox7{
+                    height: 140px;
+                    margin: 5px;
+                    width: 100px;
+                    }
+    
+
+}
+.Mainbox2 button{
+    background-color: rgb(248, 103, 103);
+    color:white;
+    border-radius: 4px;
+    border: 0.5px  solid white;
+}
+.Mainbox2{
+    height: 290px;
+    margin: 5px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding-top: 22px;
+}
+.Mainbox3{
+    height: 290px;
+    margin: 5px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.Mainbox3 button{
+    background-color: rgb(248, 103, 103);
+    color:white;
+    border-radius: 4px;
+    border: 0.5px  solid white;
+}
+.Mainbox4{
+    height: 290px;
+    margin: 5px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.Mainbox4 button{
+    background-color: rgb(248, 103, 103);
+    color:white;
+    border-radius: 4px;
+    border: 0.5px  solid white;
+}
+.Mainbox5{
+    height: 290px;
+    margin: 5px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding-top: 27px;
+}
+.Mainbox5 button{
+    background-color: rgb(248, 103, 103);
+    color:white;
+    border-radius: 4px;
+    border: 0.5px  solid white;
+}
+.Mainbox6{
+    height: 290px;
+    margin: 5px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    padding-top: 27px;
+}
+.Mainbox6 button{
+    background-color: rgb(248, 103, 103);
+    color:white;
+    border-radius: 4px;
+    border: 0.5px  solid white;
+}
+.Block-item{
+    height: 300px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin:10px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    height: cover;
+    background-image: url(Block-items-group.png);
+    border-image-repeat: no-repeat;
+    background-size: cover;
+    
+}
+@media only screen and (max-width: 767px){
+    .Block-item{
+        height: 300px;
+        border: 0.5px solid black;
+        border-radius: 5px;
+        margin:10px;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        height: cover;
+        background-image: url(Block-items-group.png);
+    }
+
+}
+
+
+/* <!-- consumer Electronic and gatgets start here --> */
+
+.consumer-Getgets{
+    display: flex;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+
+@media only screen and (max-width: 750px){
+
+    .consumer-Getgets{
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 5px;
+        border: 0.5px solid black;
+
+    }
+
+}
+.consumer-box1 button{
+    border: 0.5px solid blueviolet;
+    border-radius: 5px;
+    height: 25px;
+
+}
+@media only screen and (max-width: 750px){
+    .consumer-box1{
+        width: 300px;
+        padding: 15px;
+        background-image: url(./Group\ 970.png);
+        display: block;
+    }
+
+    .consumer-box1 button{
+        border: 0.5px solid blueviolet;
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+
+}
+.consumer-box1{
+    width: 400px;
+    padding: 15px;
+    background-image: url(./Group\ 970.png);
+}
+.Getget-box1{
+    border-bottom: 0.5px solid black;
+    border-left: 0.5px solid black;
+    padding:5px;
+    height: 215px;
+}
+.Getget-box2{
+    border-left: 0.5px solid black;
+    padding:5px;
+    width: 200px;
+}
+.Getget-box2 img{
+    height: 80px;
+    width: 80px;
+}
+.Getget-box3{
+    border-bottom: 0.5px solid black;
+    border-left: 0.5px solid black;
+    padding:5px;
+    width: 200px;
+    height: 215px;
+}
+.Getget-box2 img{
+    height: 80px;
+    width: 80px;
+}
+.Getget-box4{
+    border-left: 0.5px solid black;
+    padding:5px;
+    width: 200px;
+    width: 200px;
+}
+.Getget-box4 img{
+    height: 80px;
+    width: 80px;
+}
+.Getget-box5{
+    border-bottom: 0.5px solid black;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
+    padding:5px;
+    width: 200px;
+}
+.Getget-box5 img{
+    height: 100px;
+    width: 100px;
+}
+.Getget-box6{
+    border-left: 0.5px solid black;
+    padding:5px;
+    width: 200px;
+}
+.Getget-box6 img{
+    height: 100px;
+    width: 100px;
+}
+.Getget-box7{
+    border-bottom: 0.5px solid black;
+    padding:5px;
+    width: 200px;
+}
+.Getget-box7 img{
+    height: 100px;
+    width: 100px;
+}
+.Getget-box8{
+    border-left: 0.5px solid black;
+    padding:5px;
+    width: 200px;
+}
+.Getget-box8 img{
+    height: 100px;
+    width: 100px;
+}

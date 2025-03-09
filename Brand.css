@@ -1,0 +1,125 @@
+/* Thead css page 1 */
+
+Body{
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 80px;
+    background-color: white;
+    align-items: center;
+    margin-bottom: 2px;
+    border: 0.5px solid black;
+}
+@media only screen and (max-width: 480px){
+    nav{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: 80px;
+        background-color: white;
+        align-items: center;
+        margin-bottom: 2px;
+        border: 0.5px solid black;
+        width: 430px;
+        margin: 2px;
+    }
+
+}
+.Homenav a{
+    color: blue;
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 480px){
+
+    .HomeNav{
+        display: none;
+
+    }
+}
+
+.Use {
+    background-color: blue;
+    display: flex;
+    justify-content: flex-start;
+}
+.search{
+    display: flex;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+}
+@media only screen and (max-width: 480px){
+
+    .search{
+        display: flex;
+        justify-content: flex-start;
+        height: 30px;
+    }
+}
+.search input{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+}
+@media only screen and (max-width: 480px){
+    .search input{
+        border-top-left-radius: 5px;
+        border-bottom-left-radius:5px;
+        width: 150px
+    }
+}
+
+
+button{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
+    background-color: rgb(53, 53, 244);
+    color: white;
+
+}
+
+.Nav2{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border: 0.2px solid black;
+}
+@media only screen and (max-width: 480px){
+    .Nav2{
+        display: none;
+    }
+}
+.NavBar a{
+    margin: 2px;
+    color: black;
+
+}
+.USD select{
+    height: 30px;
+    width:90px;
+}
+ 
+/* Media Quary Tbody start here */
+
+@media only screen and (max-width: 750px){
+  header{
+    h3{
+        font-size: 8px;
+      }
+      h1{
+        font-size: 14px;
+      }
+      h2{
+        font-size:6px;
+      }
+    
+
+  }
+
+}
